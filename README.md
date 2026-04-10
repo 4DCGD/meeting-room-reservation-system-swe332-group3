@@ -1,15 +1,94 @@
-# Meeting Room Reservation System (RESRV)
-## Course: SWE332 Software Architecture Project
+# RESRV — Meeting Room Reservation App
 
-## Project Overview
-RESRV is a mobile application developed using **React Native** and **Expo**. It allows users to browse, filter, and reserve meeting rooms locally on their devices. The system is designed to be offline-first, utilizing **AsyncStorage** for data persistence without the need for a backend server.
+A mobile application built with React Native and Expo that allows users to browse, book, and manage meeting room reservations.
 
+---
 
-## Architecture Documentation
-All technical documentation follows the 4+1 Architectural View Model and can be found in the [ARCHITECTURE.md](./ARCHITECTURE.md) file.
+## Team Details
+
+1- 230513576 Muhammad Mani Murtala. ,muhammadmanii
+2- 210513647Munther Iskender. ,munthermohammed064-pixel  
+3- 200513618 Christ Guy Donald Dushime. 4DCGD
+4- 230513697 Fahad Muhammed, mohfahadd890-sys
 
 ## Features
-- Room browsing and filtering by capacity/date.
-- Local reservation storage.
-- Reservation management and cancellation.
-- Material Design UI using React Native Paper.
+
+- Browse available meeting rooms filtered by date and capacity
+- Make a room reservation with your name and email
+- View all your existing reservations
+- Cancel a reservation directly from your reservations list
+
+---
+
+## Tech Stack
+
+- **React Native** with **Expo** (~48.0.0)
+- **TypeScript**
+- **React Navigation** — screen navigation
+- **React Native Paper** — UI components (Material Design)
+- **AsyncStorage** — local data persistence
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- Expo CLI: `npm install -g expo-cli`
+- Expo Go app on your phone, or an Android/iOS emulator
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd RESRV-main
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+```
+
+Then scan the QR code with the Expo Go app, or press `a` for Android / `i` for iOS emulator.
+
+---
+
+## Project Structure
+
+```
+RESRV-main/
+├── App.tsx                        # Root component — navigation and theme setup
+├── src/
+│   └── screens/
+│       ├── HomeScreen.tsx         # Main menu
+│       ├── RoomListScreen.tsx     # Browse and filter rooms
+│       ├── ReservationScreen.tsx  # Complete a booking
+│       ├── CancellationScreen.tsx # Cancel by reference number
+│       └── MyReservationsScreen.tsx # View and manage your bookings
+├── ARCHITECTURE.md
+└── README.md
+```
+
+---
+
+## How to Use
+
+1. **Book a Room** — Select a date, set a minimum capacity, then tap a room to proceed to the booking form. Enter your name and email to confirm. A reference number will be generated for your reservation.
+
+2. **My Reservations** — View all your saved reservations. You can cancel any booking directly from this screen.
+
+3. **Cancel Reservation** — Enter a reference number to cancel a booking.
+
+---
+
+## Notes
+
+- All data is stored locally on the device using AsyncStorage — no internet connection is required.
+- Room availability conflict detection is not implemented; the same room can be booked multiple times for the same date.
+
+## Architecture Link
+
+C:\Users\PC\OneDrive\Desktop\New folder\RESRV-main (1)\RESRV-main\RESRV-main\ARCHITECTURE.md
