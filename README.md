@@ -91,4 +91,4 @@ RESRV-main/
 
 ## Architecture Link
 
-C:\Users\PC\OneDrive\Desktop\New folder\RESRV-main (1)\RESRV-main\RESRV-main\ARCHITECTURE.md
+[View Architecture Documentation](./ARCHITECTURE.md)

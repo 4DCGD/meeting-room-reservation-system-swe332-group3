@@ -50,7 +50,17 @@ RESRV is a mobile meeting-room reservation application built with React Native (
 
 ## 2. References
 
-[Reference documents and standards will be listed here]
+This architecture document is based on the following references:
+
+1. Kruchten, Philippe. "The 4+1 View Model of Architecture." IEEE Software, 1995.
+2. React Native Documentation. https://reactnative.dev/docs/getting-started
+3. Expo Documentation. https://docs.expo.dev/
+4. React Navigation Documentation. https://reactnavigation.org/docs/getting-started
+5. React Native Paper Documentation. https://callstack.github.io/react-native-paper/
+6. AsyncStorage Documentation (@react-native-async-storage/async-storage).
+   https://react-native-async-storage.github.io/async-storage/docs/usage/
+7. TypeScript Handbook. https://www.typescriptlang.org/docs/
+8. Google Material Design Guidelines. https://m3.material.io/
 
 ---
 
