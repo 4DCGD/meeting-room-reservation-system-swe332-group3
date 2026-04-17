@@ -40,7 +40,7 @@ Architecture Documentation
 ## 1. Scope
 
 ### 1.1 System Overview
-RESRV is a mobile meeting-room reservation application built with React Native (Expo). It runs on Android and iOS and allows users to browse available rooms, make reservations, view their bookings, and cancel them. All data is stored locally on the device using AsyncStorage — there is no backend server or remote API.
+RESRV is a mobile application for booking meeting rooms,developed using React Native (Expo). It operates on both Androids and IOS platforms,enabling users to explore available rooms,create reservations,check their existing bookings,and cancel them when needed.All information is stored directly on the device using AsyncStorage,meaning the app does not rely on any backend server or external API
 
 ### 1.2 System Boundaries
 - **In Scope**: Mobile client application, local data persistence, room reservation functionality
