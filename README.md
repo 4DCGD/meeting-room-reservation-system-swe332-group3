@@ -19,3 +19,7 @@ The *Meeting Room Reservation System* is a centralized platform designed to elim
 ## Architecture Link
 
 [View Architecture Documentation](./ARCHITECTURE.md)
+
+## Github Link
+
+https://github.com/4DCGD/meeting-room-reservation-system-swe332-group3.git
