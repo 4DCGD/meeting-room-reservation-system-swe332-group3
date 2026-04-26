@@ -24,4 +24,4 @@ The *Meeting Room Reservation System* is a centralized platform designed to elim
 
 https://github.com/4DCGD/meeting-room-reservation-system-swe332-group3.git
 ## Youtube video Link
-https://youtu.be/MLccCw9IvTw?si=4DPPV0VBqD1lgPj_
+https://youtu.be/xQsuvCcur4Q?si=s_EwJzAqxIDVOz5v
